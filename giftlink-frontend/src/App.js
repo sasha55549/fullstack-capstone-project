@@ -7,6 +7,7 @@ import DetailsPage from './components/DetailsPage/DetailsPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
 function App() {
   const navigate = useNavigate();
@@ -20,6 +21,7 @@ function App() {
           <Route path="/app/login" element={<LoginPage/>}/>
           <Route path="/app/register" element={<RegisterPage/>}/>
           <Route path="/app/product/:productId" element={<DetailsPage/>}/>
+          <Route path="/app/profile" element={<Profile/>}/>
         </Routes>
         </>
   );
