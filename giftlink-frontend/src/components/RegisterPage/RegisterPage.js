@@ -111,6 +111,6 @@ function RegisterPage() {
                     </div>
                 </div>
             </div>
-         );//end of return
+         )//end of return
 }
 export default RegisterPage;
