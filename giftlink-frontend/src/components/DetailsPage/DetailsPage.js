@@ -48,28 +48,28 @@ function DetailsPage() {
 	};
 
 	//The comments have been hardcoded for this project.
-    // const comments = [
-    //     {
-    //         author: "John Doe",
-    //         comment: "I would like this!"
-    //     },
-    //     {
-    //         author: "Jane Smith",
-    //         comment: "Just DMed you."
-    //     },
-    //     {
-    //         author: "Alice Johnson",
-    //         comment: "I will take it if it's still available."
-    //     },
-    //     {
-    //         author: "Mike Brown",
-    //         comment: "This is a good one!"
-    //     },
-    //     {
-    //         author: "Sarah Wilson",
-    //         comment: "My family can use one. DM me if it is still available. Thank you!"
-    //     }
-    // ];
+    const comments = [
+        {
+            author: "John Doe",
+            comment: "I would like this!"
+        },
+        {
+            author: "Jane Smith",
+            comment: "Just DMed you."
+        },
+        {
+            author: "Alice Johnson",
+            comment: "I will take it if it's still available."
+        },
+        {
+            author: "Mike Brown",
+            comment: "This is a good one!"
+        },
+        {
+            author: "Sarah Wilson",
+            comment: "My family can use one. DM me if it is still available. Thank you!"
+        }
+    ];
 
 
     if (loading) return <div>Loading...</div>;
@@ -113,7 +113,7 @@ return (
             <div className="comments-section mt-4">
                 <h3 className="mb-3">Comments</h3>
 				
-				{ gift.comments.map((comment, index) => (
+				{ comments.map((comment, index) => (
                     <div key={index} className="card mb-3">
                         <div className="card-body">
                             <p className="comment-author"><strong>{comment.author}:</strong></p>

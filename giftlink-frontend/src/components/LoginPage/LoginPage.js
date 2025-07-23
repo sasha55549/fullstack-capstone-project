@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './LoginPage.css';
-//import {urlConfig} from '../../config';
+import {urlConfig} from '../../config';
 import {useAppContext} from '../../context/AuthContext';
 import {useNavigate} from 'react-router-dom';
 function LoginPage() {
@@ -15,13 +15,13 @@ function LoginPage() {
 
     useEffect(()=>{
         if (sessionStorage.getItem('auth-token')) {
-            navigate('/app/a;pp')
+            navigate('/app');
         }
     },[navigate]);
 
     const handleLogin = async () =>{
         try {
-            const response = await fetch(`/api/auth/login`, {
+            const response = await fetch(`${urlConfig.backendUrl}/api/auth/login`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
