@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './LoginPage.css';
-import {urlConfig} from '../../config';
+//import {urlConfig} from '../../config';
 import {useAppContext} from '../../context/AuthContext';
 import {useNavigate} from 'react-router-dom';
 function LoginPage() {

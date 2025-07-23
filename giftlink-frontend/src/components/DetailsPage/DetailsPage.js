@@ -48,28 +48,28 @@ function DetailsPage() {
 	};
 
 	//The comments have been hardcoded for this project.
-    const comments = [
-        {
-            author: "John Doe",
-            comment: "I would like this!"
-        },
-        {
-            author: "Jane Smith",
-            comment: "Just DMed you."
-        },
-        {
-            author: "Alice Johnson",
-            comment: "I will take it if it's still available."
-        },
-        {
-            author: "Mike Brown",
-            comment: "This is a good one!"
-        },
-        {
-            author: "Sarah Wilson",
-            comment: "My family can use one. DM me if it is still available. Thank you!"
-        }
-    ];
+    // const comments = [
+    //     {
+    //         author: "John Doe",
+    //         comment: "I would like this!"
+    //     },
+    //     {
+    //         author: "Jane Smith",
+    //         comment: "Just DMed you."
+    //     },
+    //     {
+    //         author: "Alice Johnson",
+    //         comment: "I will take it if it's still available."
+    //     },
+    //     {
+    //         author: "Mike Brown",
+    //         comment: "This is a good one!"
+    //     },
+    //     {
+    //         author: "Sarah Wilson",
+    //         comment: "My family can use one. DM me if it is still available. Thank you!"
+    //     }
+    // ];
 
 
     if (loading) return <div>Loading...</div>;
