@@ -55,7 +55,7 @@ function RegisterPage() {
                         <div className="register-card p-4 border rounded">
                             <h2 className="text-center mb-4 font-weight-bold">Register</h2>
                             <div className="mb-4">
-                            <label htmlFor="firstName" className="form label"> FirstName</label></br>
+                            <label htmlFor="firstName" className="form label"> FirstName</label><br />
                             <input
                             id="firstName"
                             type="text"
@@ -67,7 +67,7 @@ function RegisterPage() {
                             </div>
 
                             <div className="mb-4">
-                            <label htmlFor="lastName" className="form label"> LastName</label></br>
+                            <label htmlFor="lastName" className="form label"> LastName</label><br />
                             <input
                             id="lastName"
                             type="text"
@@ -79,7 +79,7 @@ function RegisterPage() {
                             </div>
 
                             <div className="mb-4">
-                            <label htmlFor="email" className="form label"> Email</label></br>
+                            <label htmlFor="email" className="form label"> Email</label><br />
                             <input
                             id="email"
                             type="text"
@@ -91,7 +91,7 @@ function RegisterPage() {
                             </div>
 
                             <div className="mb-4">
-                            <label htmlFor="password" className="form label"> Password</label></br>
+                            <label htmlFor="password" className="form label"> Password</label><br />
                             <input
                             id="password"
                             type="password"
