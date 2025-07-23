@@ -64,8 +64,9 @@ function RegisterPage() {
                             value={firstName}
                             onChange={(e) => setFirstName(e.target.value)}
                             />
+                            </div>
 
-<div className="mb-4">
+                            <div className="mb-4">
                             <label htmlFor="lastName" className="form label"> LastName</label></br>
                             <input
                             id="lastName"
@@ -75,8 +76,9 @@ function RegisterPage() {
                             value={lastName}
                             onChange={(e) => setLastName(e.target.value)}
                             />
+                            </div>
 
-<div className="mb-4">
+                            <div className="mb-4">
                             <label htmlFor="email" className="form label"> Email</label></br>
                             <input
                             id="email"
@@ -86,8 +88,9 @@ function RegisterPage() {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             />
+                            </div>
 
-<div className="mb-4">
+                            <div className="mb-4">
                             <label htmlFor="password" className="form label"> Password</label></br>
                             <input
                             id="password"
@@ -97,7 +100,8 @@ function RegisterPage() {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             />
-                        </div>
+                            </div>
+                        
                         <div className="text-danger">{showerr}</div>
                         <button className='btn btn-primary w-100 mb-3' onClick={handleRegister}>Register</button>
                         <p className="mt-4 text-center">
@@ -107,6 +111,6 @@ function RegisterPage() {
                     </div>
                 </div>
             </div>
-         )//end of return
+         );//end of return
 }
 export default RegisterPage;
